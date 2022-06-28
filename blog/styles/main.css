@@ -1,4 +1,86 @@
 body {
   font-family: neue-haas-grotesk-text, helvetica;
+  font-size: 16px;
 }
+
+/* remove default styles */
+
+h1, h2 ,h3, h4, p{
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-width {
+  width: 100%;
+  padding: 0px 30px;
+}
+
+/* container rules */
+
+.site-navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-items {
+  display: flex;
+  flex-direction: row;
+  margin-left: 6vw;
+  width: 24vw;
+  justify-content: space-between;
+}
+
+.home-callout-container, .home-articles-container {
+  padding-left: 8vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.home-callout-container {
+  margin-top: 20vh;
+}
+
+.home-articles-container {
+ margin-bottom: 20px; 
+}
+
+.home-image-container {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+/* type rules */
+
+.site-logo {
+  font-size: 2em;
+}
+
+.nav-item {
+  font-size: 1.25em;
+}
+
+.home-callout {
+  font-size: 4em;
+  line-height: 1;
+}
+
+.home-articles-title {
+  font-size: 1em;
+}
+
+.home-article-item {
+  font-size: 2.5em;
+  padding: 6px 0px;
+}
+
+
 
