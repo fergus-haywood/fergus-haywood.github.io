@@ -244,14 +244,6 @@ margin-bottom: 60px;
   padding-left: 0vw;
 }
 
-.home-callout {
-  font-size: 3.5em;
-}
-
-.home-article-item {
-  font-size: 1.5em;
-}
-
 .article-page {
   margin-top: 10vh;
 }
@@ -288,5 +280,14 @@ margin-bottom: 60px;
 .article-breadcrumb {
   font-size: 1em;
 }
+}
 
+@media all and (max-width: 1200px) {
+  .home-callout {
+    font-size: 3.5em;
+  }
+  
+  .home-article-item {
+    font-size: 1.5em;
+  }
 }
