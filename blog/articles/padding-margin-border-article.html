@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fergus Haywood's DevAcademy Blog</title>
+    <link rel="icon" type="image/x-icon" href="/assets/site-favicon.jpg">
+    <link rel="stylesheet" href="https://use.typekit.net/aij1aqx.css">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/main.css" type="text/css">
+  </head>
+  <body>
+    <nav>
+      <div class="site-navigation page-width">
+        <h1 class="site-logo"> <a href="../index.html">
+          Fergus Haywood<br>
+          Dev Academy Blog
+        </a>
+        </h1>
+        <div class='navigation-items'>
+          <a href="#" class="nav-item">About</a>
+          <a href="padding-margin-border-article.html" class="nav-item">Articles</a>
+          <a href="#" class="nav-item">Placeholder</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="main-content page-width">
+        <div class="article-page">
+          <div class="article-header">
+            <div class="article-breadcrumb">
+              Articles > Margins, Padding and Borders
+            </div>
+            <h1 class="article-title">
+              Margins, Padding and Borders
+            </h1>
+              <p class="article-author-date">
+                June 29, 2022 by Fergus Haywood
+              </p>
+          </div>
+          <div class="article-content">
+
+            <p class="article-paragraph">
+              Entering in the world of CSS can be intimating. One thing that tripped (and still trips) me up is whether to use Margin or Padding (Border comes later)? Are people going to judge me for using the wrong one ? Are there any definitive rules for using Padding vs Margin?
+In this blog post we’re going to dive in to these and get the definitive answer.
+            </p>
+            
+            <p class="article-paragraph">
+              Let’s start with Margin. In simple terms, Margin is used to “Push elements away from each other (although in a way, this could also be said with padding). Think of margin as a magnetic forcefield, ensuring other elements are only going to stay a certain distance away from us. For example, lets say i’ve bought a house and there’s a river behind it. I’ve got my house on the centre of my property (which acts as the HTML element), my lawn, my fence and the river. Now there’s another house on the other side of the river. Although we’re not able to set the size of the river, it’s currently acting as a margin for our house. The house across the river can not physically get any closer to ours, unless they want to build in to the river.
+            </p>
+            <figure class="in-article-image-container">
+              <img class="in-article-image" src="../assets/house-with-river.jpg" alt="Placeholder Article Image">
+              <figcaption class="article-image-caption">House with a river (not a great example, please share if you can find better haha)</figcaption>
+              </figure>
+            <p class="article-paragraph">
+              In this scenario, our padding is going to be the lawn. We’re lucky enough to have a giant lawn which goes all the way to my property boundary. This is part of my property, but isn’t the main feature, that’s the house (or element when comparing to HTML). We use this to give our house some space between the house and the edge of our property. But theoretically we could always rip up the grass, and expand the house right up to our fence. This would be like removing the padding in HTML.
+            </p>
+            <p class="article-pullquote">
+              Our fence which runs along our boundary acts like border in HTML terms. We can adjust the fence to be a certain width, style and colour. The fence (whether it’s there or not) is still part of the property. 
+            </p>
+            <p class="article-paragraph">
+              Our fence which runs along our boundary acts like border in HTML terms. We can adjust the fence to be a certain width, style and colour. The fence (whether it’s there or not) is still part of the property. And it also signifies the end of our property. If there was a vacant spot to the left our house, theoretically someone could build a house right up to our fence line and there wouldn’t be any issues.
+            </p>
+            <figure class="in-article-image-container">
+              <img class="in-article-image" src="../assets/margins-padding-border.jpg" alt="Placeholder Article Image">
+              <figcaption class="article-image-caption">How Margins, Padding and Borders work in HTML</figcaption>
+              </figure>
+            <p class="article-paragraph">
+              We’ll go back to HTML, let’s say we’re building a button, and we want it to have a nice, rounded border and to make it look like a button. Without any padding, the border is going to sit right up against our text. We need to add some padding to give some space between the element and border. We can also then use a margin on this button to to tell the other elements that they’re not allowed within x distance of our brand new button.
+            </p>
+            <p class="article-paragraph">
+              Personally I find myself using padding and margin interchangeably sometimes, after writing this I’m going to make more of an effort to make sure that I’m using the right one. Although unless you’re looking at the code, sometimes people aren’t going to notice.
+            </p>
+
+
+          </div>
+
+          <a class="article-back-to-top-btn btn" href="#">
+            Back to Top
+          </a>
+        </div>
+
+      </div>
+      </main>
