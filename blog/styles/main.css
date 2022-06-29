@@ -4,6 +4,10 @@ body {
   background-color: #F9F8F5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* remove default styles */
 
 h1, h2 ,h3, h4, p{
@@ -16,19 +20,37 @@ a {
   color: black;
 }
 
-main { 
-  width: 100%;
+figure {
+  margin: 0;
 }
+
+body {
+  margin: 0px;
+}
+
+
+/* container rules */
+
 .page-width {
   margin: 0px 30px;
 }
 
-/* container rules */
+body {
+  overflow: visible;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  background-color: inherit;
+
+}
 
 .site-navigation {
   display: flex;
   flex-direction: row;
-  margin-top: 12px;
+  padding: 12px 0px;
+
 }
 
 .navigation-items {
@@ -36,14 +58,15 @@ main {
   flex-direction: row;
   margin-left: 6vw;
   width: 24vw;
+  margin-top: 12px;
   justify-content: space-between;
 }
 
-.home-callout-container, .home-articles-container {
+.home-callout-container, .home-articles-container, .article-page {
   padding-left: 8vw;
 }
 
-.main-content {
+.home-content {
   display: flex;
   height: calc( 100vh - 103px );
   flex-direction: column;
@@ -66,8 +89,42 @@ main {
   width: 40vw;
 }
 
+.article-page {
+  margin: 15vh 10vh;
+}
 
+.article-header {
+margin-bottom: 60px;
+}  
 
+.article-breadcrumb {
+  padding-bottom: 10px;
+}
+
+.article-title {
+  padding-bottom: 6px;
+}
+
+.article-content {
+  width: 54vw;
+  margin-bottom: 12vw;
+}
+
+.in-article-image-container {
+  padding: 36px 0px;
+}
+
+.in-article-image {
+  max-width: 54vw;
+}
+
+.article-paragraph {
+  padding: 20px 0px;
+}
+
+.article-pullquote {
+  padding: 30px 0px;
+}
 
 /* type rules */
 
@@ -93,6 +150,39 @@ main {
   padding: 6px 0px;
 }
 
+.article-breadcrumb {
+  font-size: 1.2em;
+}
+
+.article-title {
+  font-size: 4em;
+}
+
+.article-author-date {
+  font-size: 1em;
+}
+
+.article-paragraph {
+  text-indent: 36px;
+}
+
+.article-pullquote {
+  font-size: 2.5em;
+}
+
+.article-back-to-top-btn {
+  border: 1px solid black;
+  padding: 6px 12px;
+  border-radius: 25px;
+  transition: background-color 50ms ease-in-out 0ms;
+}
+
+.article-back-to-top-btn:hover {
+  background-color: black;
+  color: #F9F8F5;
+}
+
+
 /* show article image on article hovers */
 
 .article-image {
@@ -107,6 +197,9 @@ main {
   opacity: 1;
 }
 
+.home-article-item:hover {
+  font-style: italic;
+}
 
 }
 
