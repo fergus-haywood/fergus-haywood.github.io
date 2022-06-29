@@ -182,6 +182,10 @@ margin-bottom: 60px;
   color: #F9F8F5;
 }
 
+.article-image-caption {
+  font-size: 0.8em;
+}
+
 
 /* show article image on article hovers */
 
