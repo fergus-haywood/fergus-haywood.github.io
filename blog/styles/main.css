@@ -12,11 +12,14 @@ h1, h2 ,h3, h4, p{
 
 a {
   text-decoration: none;
+  color: black;
 }
 
-.page-width {
+main { 
   width: 100%;
-  padding: 0px 30px;
+}
+.page-width {
+  margin: 0px 30px;
 }
 
 /* container rules */
@@ -24,6 +27,7 @@ a {
 .site-navigation {
   display: flex;
   flex-direction: row;
+  margin-top: 12px;
 }
 
 .navigation-items {
@@ -38,25 +42,31 @@ a {
   padding-left: 8vw;
 }
 
-main {
+.main-content {
   display: flex;
+  height: calc( 100vh - 103px );
   flex-direction: column;
-  align-items: space-between;
+  justify-content: space-between;
 }
 
 .home-callout-container {
-  margin-top: 20vh;
+  margin-top: 10vw;
+  z-index: 1;
 }
 
 .home-articles-container {
  margin-bottom: 20px; 
 }
 
-.home-image-container {
+.article-image {
   position: absolute;
   bottom: 20px;
   right: 30px;
+  width: 40vw;
 }
+
+
+
 
 /* type rules */
 
@@ -69,7 +79,7 @@ main {
 }
 
 .home-callout {
-  font-size: 4em;
+  font-size: 5em;
   line-height: 1;
 }
 
@@ -82,5 +92,21 @@ main {
   padding: 6px 0px;
 }
 
+/* show article image on article hovers */
+
+.article-image {
+  opacity: 0;
+  transition: opacity 50ms ease-in 0ms;
+}
+
+
+@media all and (min-width: 1200px) {
+
+.blog-1:hover ~ .blog-1-image {
+  opacity: 1;
+}
+
+
+}
 
 
