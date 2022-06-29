@@ -35,7 +35,7 @@ ul {
 
 li {
   display: block;
-  
+
 }
 
 
@@ -242,6 +242,14 @@ margin-bottom: 60px;
 
 .home-callout-container, .home-articles-container, .article-page {
   padding-left: 0vw;
+}
+
+.home-callout {
+  font-size: 3.5em;
+}
+
+.home-article-item {
+  font-size: 1.5em;
 }
 
 .article-page {
