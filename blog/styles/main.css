@@ -8,6 +8,11 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+  color: #F9F8F5;
+  background-color: #405320;
+}
+
 /* remove default styles */
 
 h1, h2 ,h3, h4, p{
