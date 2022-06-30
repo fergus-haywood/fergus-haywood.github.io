@@ -189,6 +189,11 @@ margin-bottom: 60px;
   text-indent: 36px;
 }
 
+.article-paragraph-heading {
+  font-size: 1.75em;
+  padding: 20px 0px 10px;
+}
+
 .article-pullquote {
   font-size: 2.5em;
 }
@@ -222,6 +227,12 @@ margin-bottom: 60px;
 @media all and (min-width: 1200px) {
 
 .blog-1:hover ~ .blog-1-image {
+  opacity: 1;
+}
+.blog-2:hover ~ .blog-2-image {
+  opacity: 1;
+}
+.blog-3:hover ~ .blog-3-image {
   opacity: 1;
 }
 
