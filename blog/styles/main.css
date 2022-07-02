@@ -93,7 +93,7 @@ nav {
 }
 
 .home-callout-container {
-  margin-top: 10vw;
+  margin-top: 6vw;
   z-index: 1;
 }
 
@@ -160,7 +160,7 @@ margin-bottom: 60px;
   font-style: italic;
 }
 .home-callout {
-  font-size: 5em;
+  font-size: 4em;
   line-height: 1;
 }
 
@@ -223,6 +223,11 @@ margin-bottom: 60px;
   transition: opacity 50ms ease-in 0ms;
 }
 
+@media all and (min-width: 1500px) {
+  .home-callout {
+    font-size: 5em;
+  }
+}
 
 @media all and (min-width: 1200px) {
 
@@ -235,7 +240,6 @@ margin-bottom: 60px;
 .blog-3:hover ~ .blog-3-image {
   opacity: 1;
 }
-
 }
 
 
