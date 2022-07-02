@@ -169,7 +169,7 @@ margin-bottom: 60px;
 }
 
 .home-article-item {
-  font-size: 2.5em;
+  font-size: 1.75em;
   padding: 6px 0px;
 }
 
@@ -226,6 +226,10 @@ margin-bottom: 60px;
 @media all and (min-width: 1500px) {
   .home-callout {
     font-size: 5em;
+  }
+
+  .home-article-item {
+    font-size: 2.5em;
   }
 }
 
