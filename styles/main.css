@@ -244,6 +244,9 @@ margin-bottom: 60px;
 .blog-3:hover ~ .blog-3-image {
   opacity: 1;
 }
+.blog-4:hover ~ .blog-4-image {
+  opacity: 1;
+}
 }
 
 
