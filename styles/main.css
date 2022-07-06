@@ -247,6 +247,10 @@ margin-bottom: 60px;
 .blog-4:hover ~ .blog-4-image {
   opacity: 1;
 }
+
+.blog-5:hover ~ .blog-5-image {
+  opacity: 1;
+}
 }
 
 
