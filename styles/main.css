@@ -189,6 +189,21 @@ margin-bottom: 60px;
   text-indent: 36px;
 }
 
+.article-paragraph a {
+  background-color: #405320;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    transition: background-color 50ms ease-in-out 0ms, color 50ms ease-in-out 0ms;  
+}
+
+.article-paragraph a:hover {
+  background-color: transparent;
+  color: #405320;
+  border: 1px solid #405320;
+}
+
 .article-paragraph-heading {
   font-size: 1.75em;
   padding: 20px 0px 10px;
