@@ -271,6 +271,9 @@ margin-bottom: 60px;
 .blog-7:hover ~ .blog-7-image {
   opacity: 1;
 }
+.blog-8:hover ~ .blog-8-image {
+  opacity: 1;
+}
 }
 
 
