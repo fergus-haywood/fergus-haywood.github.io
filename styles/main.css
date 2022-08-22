@@ -230,7 +230,7 @@ margin-bottom: 60px;
 }
 
 
-@media all and (min-width: 320px) { 
+@media all and (min-width: 320px) and (max-width: 768px){ 
   #home-callout { 
     font-size: 2em !important;
   }
